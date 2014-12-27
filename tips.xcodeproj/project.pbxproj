@@ -13,6 +13,7 @@
 		18A652A41A4A799900399572 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A652A31A4A799900399572 /* Images.xcassets */; };
 		18A652A71A4A799900399572 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A652A51A4A799900399572 /* LaunchScreen.xib */; };
 		18A652B31A4A799900399572 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A652B21A4A799900399572 /* tipsTests.swift */; };
+		18ECAC121A4E4BAB0030DADF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECAC111A4E4BAB0030DADF /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		18A652AC1A4A799900399572 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A652B11A4A799900399572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A652B21A4A799900399572 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
+		18ECAC111A4E4BAB0030DADF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				18A6529C1A4A799900399572 /* AppDelegate.swift */,
 				18A6529E1A4A799900399572 /* ViewController.swift */,
 				18A652A01A4A799900399572 /* Main.storyboard */,
+				18ECAC111A4E4BAB0030DADF /* SettingsViewController.swift */,
 				18A652A31A4A799900399572 /* Images.xcassets */,
 				18A652A51A4A799900399572 /* LaunchScreen.xib */,
 				18A6529A1A4A799900399572 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				18A6529F1A4A799900399572 /* ViewController.swift in Sources */,
 				18A6529D1A4A799900399572 /* AppDelegate.swift in Sources */,
+				18ECAC121A4E4BAB0030DADF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				18A652B81A4A799900399572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A652B91A4A799900399572 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				18A652BB1A4A799900399572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

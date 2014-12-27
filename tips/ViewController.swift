@@ -33,6 +33,39 @@ class ViewController: UIViewController {
         }
     }
 
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        println("view will appear")
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        println("view did appear")
+        
+        var defaults = NSUserDefaults.standardUserDefaults()
+        var defaultTipPercentage = defaults.objectForKey("default_tip_percentage") as String
+
+        // select the segment whose title matches the default tip percentage
+        
+        for var i = 0; i < tipControl.numberOfSegments; i++ {
+            var title = dropLast(tipControl.titleForSegmentAtIndex(i) as String!) // drop the percentage sign
+            if title == defaultTipPercentage {
+                tipControl.selectedSegmentIndex = i
+                onEditingChanged(tipControl)
+            }
+        }
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        println("view will disappear")
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        println("view did disappear")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
