@@ -3,7 +3,7 @@
 
 This is a simple Swift iOS application that calculates the tip and total amounts for a given bill amount.
 
-Time spent: 2.5 hours spent in total (including documentation)
+Time spent: 4.0 hours spent in total (including documentation)
 
 Completed user stories:
 
